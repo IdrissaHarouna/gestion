@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #343a40;
+    color: #343a40;
+    background-image: url(R.png);
+}
+
+.container {
+    max-width: 400px;
+    /* margin: 5px auto; */
+    margin: 80px ;
+    padding: 20px;
+    /* background-color: #fff; */
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], textarea, input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    display: flexbox;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.task {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    /* background-color: #f1f1f1; */
+    background-color: aqua;
+}
+
+.task h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.task p {
+    margin-bottom: 5px;
+}
+
+.task button {
+    background-color: #dc3545;
+    margin-left: 10px;
+    
+}
+
+.task button:hover {
+    background-color: #c82333;
+}
+ul{
+    /* text-align: right; 
+     max-width: 400px; 
+     padding-left: 700px;
+      width: 150;
+      height: 140;
+      margin-bottom: 20px; */
+      position: absolute;
+      top: 170px;
+      right: 150px;
+      
+      
+    }
